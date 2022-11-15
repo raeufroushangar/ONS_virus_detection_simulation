@@ -322,13 +322,5 @@ if __name__ == "__main__":
                        sys.argv[6], sys.argv[7], sys.argv[8], sys.argv[9], sys.argv[10], 
                        sys.argv[11], sys.argv[12], sys.argv[13])
     simul.sequenceAlignmentFunc()
-
-
-
-    # print(simul.virusSymbol, simul.virusRefGenName, simul.virusRefGenCount, 
-    #       simul.hostRefGenName, simul.hostRefGenCount, simul.refGenomeDirectory, 
-    #       simul.virusHostRatio, simul.minReadLen, simul.maxReadLen, simul.readError,
-    #       simul.percentError, simul.threadsNumber, simul.simulationNumber)
-
     # python3 -B ont_virus_detection_simulation.py MVM 'Minute virus of mice.fasta' 50 'GCF_000223135.1_CriGri_1.0_genomic.fna' 1 '/home/raeuf/raeuf_notebook/bioinformatics_tools/apps/blast/db/RefSeq' 10power2 50 4000 yes 10 24 3
                     
