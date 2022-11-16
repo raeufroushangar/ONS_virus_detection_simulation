@@ -323,4 +323,6 @@ if __name__ == "__main__":
     simul.sequenceAlignmentFunc()
    
     # command line arguments:
-    # python3 -B ont_virus_detection_simulation.py MVM 'Minute virus of mice.fasta' 50 'GCF_000223135.1_CriGri_1.0_genomic.fna' 1 '/home/raeuf/raeuf_notebook/bioinformatics_tools/apps/blast/db/RefSeq' 10power2 50 1000 yes 10 24 3
+    # python3 -B ont_virus_detection_simulation.py MVM 'Minute virus of mice.fasta' 50 'GCF_000223135.1_CriGri_1.0_genomic.fna' 1 '/home/raeuf/raeuf_notebook/bioinformatics_tools/apps/blast/db/RefSeq' 10power2 50 500 yes 10 24 3
+
+    # python3 -B ont_virus_detection_simulation.py PCV1 'Porcine circovirus 1.fasta' 50 'GCF_000223135.1_CriGri_1.0_genomic.fna' 1 '/home/raeuf/raeuf_notebook/bioinformatics_tools/apps/blast/db/RefSeq' 10power2 50 500 yes 10 24 3

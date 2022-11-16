@@ -35,8 +35,8 @@ class blastsearch:
                 if hsp.expect < E_VALUE_THRESH:
                     # Search words used for the following viruses:
                     # target_list= ['feline', 'leukemia'] # Feline Leukemia Virus
-                    # target_list= ['porcine', 'circovirus'] # Porcine circovirus 1
-                    target_list= ['minute', 'mvm'] # Minute virus of mice
+                    target_list= ['porcine', 'circovirus'] # Porcine circovirus 1
+                    # target_list= ['minute', 'mvm'] # Minute virus of mice
                     if any(target in alignment.hit_def.lower() for target in target_list):
                         result=[alignment.hit_def, alignment.hit_id, alignment.accession, 
                                 alignment.length, blast_record.query, blast_record.query_length,
