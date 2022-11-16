@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>/home/raeuf/raeuf_notebook/bioinformatics_tools/apps/blast/db/RVDB_db/C-RVDBv24.1</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>read8598</BlastOutput_query-def>
+  <BlastOutput_query-len>293</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>1e-10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>read8598</Iteration_query-def>
+  <Iteration_query-len>293</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1018932</Hit_id>
+  <Hit_def>acc|NEIGHBOR|OL546295.1|Porcine circovirus 1 strain PCV1-CH-SDHY9-2021, complete genome.|Porcine circovirus 1|VRL|27-FEB-2022 </Hit_def>
+  <Hit_accession>1018932</Hit_accession>
+  <Hit_len>1759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.377</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>2.4781e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>978</Hsp_hit-from>
+      <Hsp_hit-to>1278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA</Hsp_qseq>
+      <Hsp_hseq>CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTGGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTTTGTCAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||||||| || ||||||| ||||||||||||||  |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|943347</Hit_id>
+  <Hit_def>acc|NEIGHBOR|GU799575.1|Porcine circovirus 1 strain NMB, complete genome.|Porcine circovirus 1|VRL|28-FEB-2011 </Hit_def>
+  <Hit_accession>943347</Hit_accession>
+  <Hit_len>1759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.377</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>2.4781e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>978</Hsp_hit-from>
+      <Hsp_hit-to>1278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA</Hsp_qseq>
+      <Hsp_hseq>CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|446004</Hit_id>
+  <Hit_def>acc|REFSEQ|NC_013774.1|Porcine circovirus type 1/2a, complete genome </Hit_def>
+  <Hit_accession>446004</Hit_accession>
+  <Hit_len>1767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.377</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>2.4781e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA</Hsp_qseq>
+      <Hsp_hseq>CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|69856</Hit_id>
+  <Hit_def>acc|NEIGHBOR|KJ680360.1|Porcine circovirus 2 isolate HN1204, complete genome.|Porcine circovirus 2|VRL|18-MAY-2014 </Hit_def>
+  <Hit_accession>69856</Hit_accession>
+  <Hit_len>1767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.377</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>2.4781e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>519</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA</Hsp_qseq>
+      <Hsp_hseq>CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTTTGTCAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||||||| || ||||||| ||||||||||||||  |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1230798</Hit_id>
+  <Hit_def>acc|NEIGHBOR|KC990120.1|Porcine circovirus 1 isolate 090507, complete genome.|Porcine circovirus 1|VRL|31-AUG-2013 </Hit_def>
+  <Hit_accession>1230798</Hit_accession>
+  <Hit_len>1760</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.837</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.15295e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA</Hsp_qseq>
+      <Hsp_hseq>CACCTCCAGGGGTTTGCGAATTTTTCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTGGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||| | | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|276391</Hit_id>
+  <Hit_def>acc|NEIGHBOR|AY699796.1|Porcine circovirus 1, complete genome.|Porcine circovirus 1|VRL|26-OCT-2004 </Hit_def>
+  <Hit_accession>276391</Hit_accession>
+  <Hit_len>1759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.36414e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>559</Hsp_hit-from>
+      <Hsp_hit-to>859</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA</Hsp_qseq>
+      <Hsp_hseq>CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAATAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCACCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||| | ||||||||||||||| ||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | || ||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|762013</Hit_id>
+  <Hit_def>acc|NEIGHBOR|KY437725.1|Porcine circovirus 1 isolate Pcv1-84, complete genome.|Porcine circovirus 1|VRL|18-DEC-2017 </Hit_def>
+  <Hit_accession>762013</Hit_accession>
+  <Hit_len>1757</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.757</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>2.49569e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA</Hsp_qseq>
+      <Hsp_hseq>CACCTCCAGGGGTTTGCCAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCACCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCCCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||| |||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | || ||||||||||| ||||||   ||| |||| |||||||||||||||| | |||| ||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|638471</Hit_id>
+  <Hit_def>acc|GENBANK|EF036483.1|Porcine circovirus 1 from India replicase gene, partial cds.|Porcine circovirus 1|VRL|14-JUL-2016 </Hit_def>
+  <Hit_accession>638471</Hit_accession>
+  <Hit_len>951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.757</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>2.49569e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA</Hsp_qseq>
+      <Hsp_hseq>CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCATGTCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTTCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||  ||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||| ||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|982131</Hit_id>
+  <Hit_def>acc|GENBANK|GQ404924.1|Porcine circovirus 1 isolate CA2HT replication-association protein (rep) gene, partial cds.|Porcine circovirus 1|VRL|25-JUL-2016 </Hit_def>
+  <Hit_accession>982131</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.137</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>2.51341e-94</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>TTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAGAA-GCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTTG-AGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTG-TGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAGAA-TTTCCTCGGGCTGGCTGAACAGTTGAAACTGA</Hsp_qseq>
+      <Hsp_hseq>TTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA</Hsp_hseq>
+      <Hsp_midline>||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||||| |||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| || ||||||||| ||||||||||||||||||| | | ||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||| |||| |||||||| ||||| ||||||||||||||  |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1287944</Statistics_db-num>
+      <Statistics_db-len>2428170463</Statistics_db-len>
+      <Statistics_hsp-len>28</Statistics_hsp-len>
+      <Statistics_eff-space>633908628215</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

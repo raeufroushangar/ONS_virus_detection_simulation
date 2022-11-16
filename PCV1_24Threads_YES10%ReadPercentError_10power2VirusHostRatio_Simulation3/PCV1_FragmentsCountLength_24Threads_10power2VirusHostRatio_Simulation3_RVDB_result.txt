@@ -1,0 +1,230 @@
+
+Date: Nov-16-2022
+Virus: Porcine circovirus 1.fasta
+Genome size (bp): 1758
+Count: 50
+Host name: GCF_000223135.1_CriGri_1.0_genomic.fna
+Genome size (bp): 2399786748
+Count: 1
+
+Virus to host ratio: 10power2
+Number of total fragments: 4878972
+10% Error per read: YES
+
+
+****Alignment:1****
+sbjct_title: acc|NEIGHBOR|OL546295.1|Porcine circovirus 1 strain PCV1-CH-SDHY9-2021, complete genome.|Porcine circovirus 1|VRL|27-FEB-2022 
+sbjct_id: gnl|BL_ORD_ID|1018932
+sbjct_accession: 1018932
+sbjct_length: 1759
+query_id: read8598
+query_length: 293
+score: 207.0
+evalue: 2.4781e-104
+identities: 271
+positives: 271
+gaps: 8
+align_length: 301
+strand: ('Plus', 'Plus')
+query_start: 1
+query_end: 293
+query: CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA
+match: |||||||| ||||||||||||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||||||| || ||||||| ||||||||||||||  |||||| |||
+sbjct: CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTGGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTTTGTCAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA
+sbjct_start: 978
+sbjct_end: 1278
+*****************
+
+
+****Alignment:2****
+sbjct_title: acc|NEIGHBOR|GU799575.1|Porcine circovirus 1 strain NMB, complete genome.|Porcine circovirus 1|VRL|28-FEB-2011 
+sbjct_id: gnl|BL_ORD_ID|943347
+sbjct_accession: 943347
+sbjct_length: 1759
+query_id: read8598
+query_length: 293
+score: 207.0
+evalue: 2.4781e-104
+identities: 271
+positives: 271
+gaps: 8
+align_length: 301
+strand: ('Plus', 'Plus')
+query_start: 1
+query_end: 293
+query: CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA
+match: |||||||| ||||||||||||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||
+sbjct: CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA
+sbjct_start: 978
+sbjct_end: 1278
+*****************
+
+
+****Alignment:3****
+sbjct_title: acc|REFSEQ|NC_013774.1|Porcine circovirus type 1/2a, complete genome 
+sbjct_id: gnl|BL_ORD_ID|446004
+sbjct_accession: 446004
+sbjct_length: 1767
+query_id: read8598
+query_length: 293
+score: 207.0
+evalue: 2.4781e-104
+identities: 271
+positives: 271
+gaps: 8
+align_length: 301
+strand: ('Plus', 'Plus')
+query_start: 1
+query_end: 293
+query: CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA
+match: |||||||| ||||||||||||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||
+sbjct: CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA
+sbjct_start: 206
+sbjct_end: 506
+*****************
+
+
+****Alignment:4****
+sbjct_title: acc|NEIGHBOR|KJ680360.1|Porcine circovirus 2 isolate HN1204, complete genome.|Porcine circovirus 2|VRL|18-MAY-2014 
+sbjct_id: gnl|BL_ORD_ID|69856
+sbjct_accession: 69856
+sbjct_length: 1767
+query_id: read8598
+query_length: 293
+score: 207.0
+evalue: 2.4781e-104
+identities: 271
+positives: 271
+gaps: 8
+align_length: 301
+strand: ('Plus', 'Plus')
+query_start: 1
+query_end: 293
+query: CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA
+match: |||||||| ||||||||||||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||||||| || ||||||| ||||||||||||||  |||||| |||
+sbjct: CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTTTGTCAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA
+sbjct_start: 219
+sbjct_end: 519
+*****************
+
+
+****Alignment:5****
+sbjct_title: acc|NEIGHBOR|KC990120.1|Porcine circovirus 1 isolate 090507, complete genome.|Porcine circovirus 1|VRL|31-AUG-2013 
+sbjct_id: gnl|BL_ORD_ID|1230798
+sbjct_accession: 1230798
+sbjct_length: 1760
+query_id: read8598
+query_length: 293
+score: 204.0
+evalue: 1.15295e-102
+identities: 270
+positives: 270
+gaps: 8
+align_length: 301
+strand: ('Plus', 'Plus')
+query_start: 1
+query_end: 293
+query: CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA
+match: |||||||| ||||||||||||||| | | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||
+sbjct: CACCTCCAGGGGTTTGCGAATTTTTCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTGGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA
+sbjct_start: 206
+sbjct_end: 506
+*****************
+
+
+****Alignment:6****
+sbjct_title: acc|NEIGHBOR|AY699796.1|Porcine circovirus 1, complete genome.|Porcine circovirus 1|VRL|26-OCT-2004 
+sbjct_id: gnl|BL_ORD_ID|276391
+sbjct_accession: 276391
+sbjct_length: 1759
+query_id: read8598
+query_length: 293
+score: 201.0
+evalue: 5.36414e-101
+identities: 269
+positives: 269
+gaps: 8
+align_length: 301
+strand: ('Plus', 'Plus')
+query_start: 1
+query_end: 293
+query: CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA
+match: |||||||| ||||||||||||||||| | ||||||||||||||| ||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | || ||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||
+sbjct: CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAATAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCACCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA
+sbjct_start: 559
+sbjct_end: 859
+*****************
+
+
+****Alignment:7****
+sbjct_title: acc|NEIGHBOR|KY437725.1|Porcine circovirus 1 isolate Pcv1-84, complete genome.|Porcine circovirus 1|VRL|18-DEC-2017 
+sbjct_id: gnl|BL_ORD_ID|762013
+sbjct_accession: 762013
+sbjct_length: 1757
+query_id: read8598
+query_length: 293
+score: 198.0
+evalue: 2.49569e-99
+identities: 268
+positives: 268
+gaps: 8
+align_length: 301
+strand: ('Plus', 'Plus')
+query_start: 1
+query_end: 293
+query: CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA
+match: |||||||| |||||||| |||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||| |||||||||||||| | || ||||||||||| ||||||   ||| |||| |||||||||||||||| | |||| ||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||
+sbjct: CACCTCCAGGGGTTTGCCAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCACCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCCCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA
+sbjct_start: 206
+sbjct_end: 506
+*****************
+
+
+****Alignment:8****
+sbjct_title: acc|GENBANK|EF036483.1|Porcine circovirus 1 from India replicase gene, partial cds.|Porcine circovirus 1|VRL|14-JUL-2016 
+sbjct_id: gnl|BL_ORD_ID|638471
+sbjct_accession: 638471
+sbjct_length: 951
+query_id: read8598
+query_length: 293
+score: 198.0
+evalue: 2.49569e-99
+identities: 268
+positives: 268
+gaps: 8
+align_length: 301
+strand: ('Plus', 'Plus')
+query_start: 1
+query_end: 293
+query: CACCTCCA-GGGTTTGCGAATTTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAG-AAGCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTT-GAGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTT-GTGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAG-AATTTCCTCGGGCTGGCTGAACAGTTGAAACTGA
+match: |||||||| ||||||||||||||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||  ||||| |||||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| | |||||||||| ||||||||||||||||||| | | |||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||| ||||| |||| |||||| ||||||| ||||||||||||||  |||||| |||
+sbjct: CACCTCCAGGGGTTTGCGAATTTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCATGTCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTTCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA
+sbjct_start: 185
+sbjct_end: 485
+*****************
+
+
+****Alignment:9****
+sbjct_title: acc|GENBANK|GQ404924.1|Porcine circovirus 1 isolate CA2HT replication-association protein (rep) gene, partial cds.|Porcine circovirus 1|VRL|25-JUL-2016 
+sbjct_id: gnl|BL_ORD_ID|982131
+sbjct_accession: 982131
+sbjct_length: 363
+query_id: read8598
+query_length: 293
+score: 189.0
+evalue: 2.51341e-94
+identities: 251
+positives: 251
+gaps: 7
+align_length: 280
+strand: ('Plus', 'Minus')
+query_start: 21
+query_end: 293
+query: TTTGC-ACGAAGCAGACTTTTAACAAGGTGAAGTGATCTTTAGGTGCCCGCTGCCACATCGAGAA-GCGAAAGGAACCTAACAGCAGAATAAAGAGTACTGCGAAAAACAAGGTCACATACTTATCGAGTTTG-AGCTCCGCGCAACCAGGGGAAGCGCAGCG-CGT-TCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTG-TGACTGAAGCCGAGCAGTTCCCTGTTACGTTTGTGAGAA-TTTCCTCGGGCTGGCTGAACAGTTGAAACTGA
+match: ||||| | ||||||||||||||||||||||||||| | ||| ||||||||||||||||||||||| |||||||||||| | |||||||||||||| ||||||   ||| |||| |||||||||||||||| || ||||||||| ||||||||||||||||||| | | ||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||| |||| |||||||| ||||| ||||||||||||||  |||||| |||
+sbjct: TTTGCTAAGAAGCAGACTTTTAACAAGGTGAAGTGGTATTTTGGTGCCCGCTGCCACATCGAGAAAGCGAAAGGAACCGACCAGCAGAATAAAGAATACTGCAGTAAAGAAGGCCACATACTTATCGAGTGTGGAGCTCCGCGGAACCAGGGGAAGCGCAGCGACCTGTCTACTGCTGTGAGTACCCTTTTGGAGACGGGGTCTTTGGTGACTGTAGCCGAGCAGTTCCCTGTAACGTATGTGAGAAATTTCCGCGGGCTGGCTGAACTTTTGAAAGTGA
+sbjct_start: 363
+sbjct_end: 84
+*****************
+
+Processing took 20.08 min using 24 parallel threads.
