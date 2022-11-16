@@ -6,8 +6,8 @@
   <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
   <BlastOutput_db>/home/raeuf/raeuf_notebook/bioinformatics_tools/apps/blast/db/RVDB_db/C-RVDBv24.1</BlastOutput_db>
   <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
-  <BlastOutput_query-def>read29292</BlastOutput_query-def>
-  <BlastOutput_query-len>3101</BlastOutput_query-len>
+  <BlastOutput_query-def>read10068</BlastOutput_query-def>
+  <BlastOutput_query-len>466</BlastOutput_query-len>
   <BlastOutput_param>
     <Parameters>
       <Parameters_expect>1e-10</Parameters_expect>
@@ -22,22 +22,273 @@
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
   <Iteration_query-ID>Query_1</Iteration_query-ID>
-  <Iteration_query-def>read29292</Iteration_query-def>
-  <Iteration_query-len>3101</Iteration_query-len>
+  <Iteration_query-def>read10068</Iteration_query-def>
+  <Iteration_query-len>466</Iteration_query-len>
 <Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1265430</Hit_id>
+  <Hit_def>acc|REFSEQ|NC_001510.1|Minute virus of mice, complete genome </Hit_def>
+  <Hit_accession>1265430</Hit_accession>
+  <Hit_len>5149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.361</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>4.7852e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>522</Hsp_hit-from>
+      <Hsp_hit-to>1000</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAATGCGGAAAA-AACAAGGCTGGCACAGAC-TGTACTAATTGGGGGAAAGG-CTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATGTT-A-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGATACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAA-CAAAAAAGACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT</Hsp_qseq>
+      <Hsp_hseq>TTCATTTTTGATTCTTTGGTTAAAAAATGTTTATTTGAAGTGCTTAACACAAAGAATATATTTCCTGGTGATGTTAATTGGTTTGTGCAACATGAATGGGGAAAAGACCAAGGCTGGCACTGCCATGTACTAATTGGAGGAAAGGACTTTAGTCAAGCTCAAGGGAAATGGTGGAGAAGGCAACTAAATGTTTACTGGAGCAGATGGTTGGTAACAGCCTGTAATGTGCAACTAACACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTTACTCTACTTACTTATAAGCATAAGCAAACCAAAAAAGACTATACCAAGTGTGTTCTTTTTGGAAACATGATTGCTTACTATTTTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTAGCAGTGACTCTGGCTGGAAAACTAACTTTTTAAAAGAAGGCGAGCGCCATCT</Hsp_hseq>
+      <Hsp_midline>|||||| |||| |||||| ||||||||||||||||||| |||||||||||||||||| ||  ||||||||||||   |||||||| |||||||||||| |||||| | |||||||||||| | | |||||||||||| ||||||| |||||||| ||||||||||||||||||||||| ||| ||||||||| | |||| | |||||||||||||||||||||| | |||||| | |||||||| |||||||||||||||||||||||||||||||||||||||||| ||| |||||| ||||||| ||||||||| ||||||||||| |||||||||| || |||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||| || ||||||||||||||| ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|413442</Hit_id>
+  <Hit_def>acc|GENBANK|MF416382.1|Mouse parvovirus 2 isolate MPV2/NYC/Queens/poolP8, partial genome.|Mouse parvovirus 2|VRL|25-APR-2018 </Hit_def>
+  <Hit_accession>413442</Hit_accession>
+  <Hit_len>4876</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.182</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>1.07311e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>400</Hsp_hit-from>
+      <Hsp_hit-to>878</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>415</Hsp_identity>
+      <Hsp_positive>415</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAATGCGGAAAA-AACAAGGCTGGCACAGAC-TGTACTAATTGGGGGAAAGG-CTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATGTT-A-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGATACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAACAAAAAA-GACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT</Hsp_qseq>
+      <Hsp_hseq>TTCATTTATGACTCTTTAGTTAAAAAATGTTTGTTTGAAGTGCTTAGCACAAAGAATATAGCTCCTGCTGATGTTACTTGGTTTGTGCAGCATGAATGGGGAAAAGACCAAGGCTGGCACTGCCATGTACTAATTGGAGGCAAGGACTTTAGTCAAGCTCAAGGAAAGTGGTGGAGAAGGCAGCTAAATGTTTACTGGAGCAGATGGTTGGTAACAGCCTGTAATGTGCAGCTAACACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACAGTGAGTGGGTTACTTTACTCACTTACAAGCATAAGCAAACCAAAAAGGACTATACCAAGTGTGTTCTTTTTGGAAATATGATTGCTTACTACTTTTTAACCAAAAAGAAAATAAGCACCAGTCCACCAAGGGACGGAGGCTATTTTCTGAGTAGTGACTCTGGCTGGAAAACTAACTTTTTAAAAGAAGGCGAACGCCATCT</Hsp_hseq>
+      <Hsp_midline>||||||  ||| |||||  ||||||||||||| ||||| ||||||| |||||||||| ||| ||||| ||||||  ||||||||| ||| |||||||| |||||| | |||||||||||| | | |||||||||||| || |||| |||||||| ||||||||| || |||||||||| ||| ||||||||| | |||| | |||||||||||||||||||||| | ||| || | |||||||| |||||||||||||||||||||||||||||||| ||||||||| |||||||| | ||| ||| |||||||||| ||||| |||| |||||||||| || |||||||||| ||||||||||||||  ||||||| ||||||||||||||||| ||||||||||| |||||||||||||||||  | | |||||||||||||||| || ||||||||||||||| ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|992453</Hit_id>
+  <Hit_def>acc|GENBANK|U12469.1|Mouse parvovirus 1 complete genome, nonstructural protein 1 (NS1) gene, complete cds and capsid protein (VP1) gene, complete cds.|Mouse parvovirus 1|VRL|24-JAN-1995 </Hit_def>
+  <Hit_accession>992453</Hit_accession>
+  <Hit_len>5144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>512.642</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>4.99269e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>526</Hsp_hit-from>
+      <Hsp_hit-to>1004</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>414</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAAT-GCGGAAAAAACAAGGCTGGCACAGAC-TGTACTAATTGGGGGAAAGG-CTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATGTT-A-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGATACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAACAAAAAA-GACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT</Hsp_qseq>
+      <Hsp_hseq>TTCATTTATGACTCTTTAGTTAAAAAATGTTTGTTTGAAGTGCTTAGCACAAAGAATATAGCTCCTGCTGATGTTACTTGGTTTGTGCAGCATGAATGGGGGAAAGACCAAGGCTGGCACTGCCATGTACTAATTGGAGGCAAGGACTTTAGTCAAGCTCAAGGAAAATGGTGGAGAAGGCAGCTAAATGTTTACTGGAGCAGATGGTTGGTAACAGCCTGTAATGTGCAGCTAACACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACAGTGAGTGGGTTACTTTACTTACTTATAAACATAAGCAAACCAAAAAGGACTATACTAAATGTGTTCTTTTTGGAAATATGATTGCTTACTACTTTTTAACCAAAAAAAAAATAAGCACCAGTCCGCCAAGAGACGGAGGCTATTTTCTAAGCAGTGACTCTGGCTGGAAAACTAACTTTTTAAAAGAAGGCGAACGCCATCT</Hsp_hseq>
+      <Hsp_midline>||||||  ||| |||||  ||||||||||||| ||||| ||||||| |||||||||| ||| ||||| ||||||  ||||||||| ||| ||||||| | ||||| | |||||||||||| | | |||||||||||| || |||| |||||||| ||||||||| ||||||||||||| ||| ||||||||| | |||| | |||||||||||||||||||||| | ||| || | |||||||| |||||||||||||||||||||||||||||||| ||||||||| |||||||||| ||||||  |||||||||| ||||| |||| ||| || ||| || |||||||||| ||||||||||||||  ||||||| ||||| ||||||||||| ||||| |||||||||||||||||||||||  ||| |||||||||||||||| || ||||||||||||||| ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|352668</Hit_id>
+  <Hit_def>acc|GENBANK|FJ440683.1|Mouse parvovirus 4a, complete genome.|Mouse parvovirus 4a|VRL|30-NOV-2008 </Hit_def>
+  <Hit_accession>352668</Hit_accession>
+  <Hit_len>4800</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>507.102</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.32287e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>899</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>414</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAATGCGGAAAA-AACAAGGCTGGCACAGAC-TGTACTAATTGGGGGAAAGG-CTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATGTT-A-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGAT-ACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAA-CAAAAAAGACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT</Hsp_qseq>
+      <Hsp_hseq>TTCATTTTTGACTCTTTAGTTAAAAAATGTTTGTTTGAAGTGCTTAACACAAAGAACATAGCTCCTGCTGATGTTAATTGGTTTGTGCAGCATGAATGGGGAAAAGACCAAGGCTGGCACTGCCATGTACTAATTGGAGGCAAGGACTTTAGTCAAGCTCAAGGAAAGTGGTGGAGAAGGCAGCTAAATGTTTACTGGAGCAGATGGTTAGTAACAGCCTGTAATGTACAGCT-ATCACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTTACCTTGCTCACTTATAAGCATAAGCAAACCAAAAAGGACTATACTAAGTGTGTTCTTTTTGGCAACATGATTGCTTACTACTTTTTAACCAAAAAGAAAATAAGCACTAGTCCACCAAGGGACGGAGGCTATTTTCTGAGCAGTGACTCTGGCTGGAAAACTAACTTTTTAAAAGAGGGCGAACGCCATCT</Hsp_hseq>
+      <Hsp_midline>|||||| |||| |||||  ||||||||||||| ||||| |||||||||||||||||  ||| ||||| ||||||   |||||||| ||| |||||||| |||||| | |||||||||||| | | |||||||||||| || |||| |||||||| ||||||||| || |||||||||| ||| ||||||||| | |||| | ||||||| |||||||||||||| |  || || || |||||||| |||||||||||||||||||||||||||||||||||||||||| || || || | ||||||| ||||||||| |||||| |||| ||| |||||| || ||||||| |||||||||||||||||  ||||||| ||||||||||||||||||||||||||||| |||||||||||||||||  ||| |||||||||||||||| || ||||||||||||| | ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|336957</Hit_id>
+  <Hit_def>acc|GENBANK|DQ196319.1|Mouse parvovirus 2, complete genome.|Mouse parvovirus 2|VRL|27-MAY-2006 </Hit_def>
+  <Hit_accession>336957</Hit_accession>
+  <Hit_len>4756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.08073e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>393</Hsp_hit-from>
+      <Hsp_hit-to>871</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>413</Hsp_identity>
+      <Hsp_positive>413</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAATGCGGAAAA-AACAAGGCTGGCACAGAC-TGTACTAATTGG-GGGAAAGGCTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATGT-TA-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGAT-ACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAA-CAAAAAAGACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT</Hsp_qseq>
+      <Hsp_hseq>TTCATTTATGACTCTTTAGTTAAAAAATGTTTGTTTGAAGTGCTTAGCACAAAGAACATAGCTCCTGGTGATGTTAATTGGTTTGTGCAACATGAATGGGGAAAAGACCAAGGCTGGCATTGTCATGTACTAATTGGAGGCAAAGACTTTAGTCAAGCTCAAGGAAAGTGGTGGAGAAGGCAACTAAATGTATACTGGAGTAGATGGTTAGTAACAGCCTGTAATGTGCAGCT-ATCACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACAGTGAGTGGGTTACCTTGCTCACTTATAAGCATAAGCAAACCAAAAAGGACTATACCAAATGTGTTCTTTTTGGAAACATGATTGCTTACTACTTTTTAACCAAAAAGAAAATAAGCACTAGTCCGCCAAGAGACGGAGGCTATTTTCTGAGCAGTGACTCTGGCTGGAAAACTAACTTTTTAAAAGAGGGCGAACGCCATCT</Hsp_hseq>
+      <Hsp_midline>||||||  ||| |||||  ||||||||||||| ||||| ||||||| |||||||||  ||| ||||||||||||   |||||||| |||||||||||| |||||| | |||||||||||  | | |||||||||||| || |||| |||||||| ||||||||| || |||||||||| ||| |||||||| || ||||   ||||||| |||||||||||||| | ||| || || |||||||| |||||||||||||||||||||||||||||||| ||||||||| || || || | ||||||| ||||||||| |||||| |||| |||||| ||| || |||||||||||||||||||||||||  ||||||| ||||||||||||||||||||||| |||||||||||||||||||||||  ||| |||||||||||||||| || ||||||||||||| | ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|629670</Hit_id>
+  <Hit_def>acc|GENBANK|X02481.1|Mouse parvovirus minute virus immunosuppressive variant genome (= MVMi).|Minute virus of mice|VRL|26-JUL-2016 </Hit_def>
+  <Hit_accession>629670</Hit_accession>
+  <Hit_len>5087</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.022</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>5.02814e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>523</Hsp_hit-from>
+      <Hsp_hit-to>1001</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>411</Hsp_identity>
+      <Hsp_positive>411</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAAT-GCGGAAAAAACAAGGCTGGCACAGAC-TGTACTAATTGGGGGAAAGG-CTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATGTT-A-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGATACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAACAAAAAA-GACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT</Hsp_qseq>
+      <Hsp_hseq>TTCATTTATGACTCTTTAGTTAAAAAATGTTTGTTTGAAGTGCTTAGCACAAAAAATATAGCTCCTGCTGATGTTACTTGGTTTGTGCAGCATGAATGGGGGAAAGACCAAGGCTGGCACTGCCATGTACTAATTGGAGGCAAGGACTTTAGTCAAGCTCAAGGAAAATGGTGGAGAAGGCAGCTAAATGTTTACTGGAGCAGATGGTTGGTAACAGCCTGTAATGTGCAGCTAACACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACAGTGAGTGGGTTACTTTACTCACTTATAAACATAAGCAAACCAAAAAGGACTATACTAAATGTGTTCTTTTTGGAAATATGATTGCTTACTACTTTTTAACCAAAAAGAAAATAAGCACCAGTCCGCCAAGGGACGGAGGCTATTTTCTAAGCAGTGACTCTGGCTGGAAAACTAACTTTTTAAAAGAGGGCGAACGCCATCT</Hsp_hseq>
+      <Hsp_midline>||||||  ||| |||||  ||||||||||||| ||||| ||||||| |||||| ||| ||| ||||| ||||||  ||||||||| ||| ||||||| | ||||| | |||||||||||| | | |||||||||||| || |||| |||||||| ||||||||| ||||||||||||| ||| ||||||||| | |||| | |||||||||||||||||||||| | ||| || | |||||||| |||||||||||||||||||||||||||||||| ||||||||| |||||||| | ||||||  |||||||||| ||||| |||| ||| || ||| || |||||||||| ||||||||||||||  ||||||| ||||||||||||||||| ||||| ||||| |||||||||||||||||  ||| |||||||||||||||| || ||||||||||||| | ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1183998</Hit_id>
+  <Hit_def>acc|GENBANK|AB234204.1|Mouse parvovirus UT NS1 gene for nonstractural protein NS1, complete cds.|Mouse parvovirus UT|VRL|04-DEC-2008 </Hit_def>
+  <Hit_accession>1183998</Hit_accession>
+  <Hit_len>2019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.863</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>2.35597e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>408</Hsp_identity>
+      <Hsp_positive>408</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAATGCGGAAAA-AACAAGGCTGGCACAGAC-TGTACTAATTGG-GGGAAAGGCTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATGTT-A-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGAT-ACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAA-CAAAAAAGACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT</Hsp_qseq>
+      <Hsp_hseq>TTCATTTATGACTCTTTAGTTAAAAAATGTTTGTTTGAAGTGCTTAACACAAAGAACATATCTCCTGGTGATGTTAATTGGTTTGTGCAGCATGAATGGGGAAAAGACCAAGGCTGGCATTGCCATGTACTAATTGGAGGCAAAGACTTTAGCCAAGCTCAAGGAAAGTGGTGGAGAAGGCAGCTAAGTGTTTACTGGAGCAGATGGTTAGTAACAGCCTGTAATGTGCAGCT-ATCACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACAGTGAGTGGGTTACCTTGCTCACTTATAAGCATAAGCAAACCAAAAAAGACTATACTAAGTGTGTTCTTTTTGGCAACATAATTGCTTACTACTTTTTAACCAAGAAGAAAATAAGCACTAGTCCGCCAAGGGACGGAGGCTATTTTCTGAGCAGTGACTCTGGCTGGAAAACTAACTTTTTAAAAGAGGGCGAACGCCATCT</Hsp_hseq>
+      <Hsp_midline>||||||  ||| |||||  ||||||||||||| ||||| |||||||||||||||||  ||  ||||||||||||   |||||||| ||| |||||||| |||||| | |||||||||||  | | |||||||||||| || |||| |||||| | ||||||||| || |||||||||| ||| |||| |||| | |||| | ||||||| |||||||||||||| | ||| || || |||||||| |||||||||||||||||||||||||||||||| ||||||||| || || || | ||||||| ||||||||| ||||||||||| ||| |||||| || ||||||| ||||| |||||||||||  ||||||| || |||||||||||||||||||| ||||| |||||||||||||||||  ||| |||||||||||||||| || ||||||||||||| | ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|352671</Hit_id>
+  <Hit_def>acc|GENBANK|FJ441297.1|Mouse parvovirus 5a, complete genome.|Mouse parvovirus 5a|VRL|30-NOV-2008 </Hit_def>
+  <Hit_accession>352671</Hit_accession>
+  <Hit_len>4746</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.863</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>2.35597e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>899</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>407</Hsp_identity>
+      <Hsp_positive>407</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAATGCGGAA-AAAACAAGGCTGGCACAGAC-TGTACTAATTGG-GGGAAAGGCTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATGTT-A-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGATACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAA-CAAAAAAGACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT</Hsp_qseq>
+      <Hsp_hseq>TTCATTTATGACTCTTTAGTTAAAAAATGTTTGTTTGAAGTACTTAGCACAAAGAACATAGCTCCTAGTGATGTTAATTGGTTTGTGCAGCATGAATGGGGAAGAGACCAAGGCTGGCATTGCCATGTACTAATTGGAGGCAAAGACTTTAGTCAAGCTCAAGGAAAGTGGTGGAGAAGGCAGCTAAGTGTTTACTGGAGCAGATGGTTGGTAACAGCTTGTAATGTACAGCTAACACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACAGTGAATGGGTTACCTTGCTCACTTATAAGCATAAGCAAACCAAAAAGGACTATACCAAGTGTGTTCTTTTTGGAAACATAATTGCTTACTACTTTTTAACTAAAAAGAAAATAAGCACCAGTCCGCCAAGAGACGGAGGCTATTTTCTTAGCAGTGACTCTGGCTGGAAAACTAACTTTTTAAAAGAGGGCGAACGCCATCT</Hsp_hseq>
+      <Hsp_midline>||||||  ||| |||||  ||||||||||||| ||||| || |||| |||||||||  ||| |||| |||||||   |||||||| ||| |||||||| |||| | | |||||||||||  | | |||||||||||| || |||| |||||||| ||||||||| || |||||||||| ||| |||| |||| | |||| | |||||||||||||||| ||||| |  || || | |||||||| |||||||||||||||||||||||||||||||| ||| ||||| || || || | ||||||| ||||||||| |||||| |||| |||||||||| || ||||||||||||| |||||||||||  ||||||||||||||||||||||||| ||||| |||||||||||||||||||||||| ||| |||||||||||||||| || ||||||||||||| | ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|673876</Hit_id>
+  <Hit_def>acc|GENBANK|M81888.1|Parvovirus LuII DNA sequence.|LuIII virus|VRL|03-AUG-1993 </Hit_def>
+  <Hit_accession>673876</Hit_accession>
+  <Hit_len>5135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.383</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.4236e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>528</Hsp_hit-from>
+      <Hsp_hit-to>1006</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>396</Hsp_identity>
+      <Hsp_positive>396</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAATGCGGAAAA-AACAAGGCTGGCACAGAC-TGTACTAATTGGGGGAAAG-GCTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATG-TTA-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGAT-ACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAA-CAAAAAAGACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT</Hsp_qseq>
+      <Hsp_hseq>TTCATTTTTGACTCTTTAGTTAAAAAGTGTCTCTTTGAAGTACTGAGCACAAAGAACATAGCTCCTAGTGATGTTACTTGGTTTGTACAGCATGAATGGGGAAAAGACCAAGGCTGGCACTGTCATGTGCTCATTGGAGGCAAGAACTTTAGCCAGGCTCAAGGAAAATGGTGGAGGAGACAATTAAATGTTTACTGGAGTAGATGGTTGGTAACAGCCTGTAGCGTGCAGCT-ATCACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACCAAGAATGGGTTACTCTGCTTACTTATAAGCATAAGCAAACCAAAAAAGACTATACTAAGTGTGTTTGCTTTGGAAATATGGTTGCTTACTACTTTTTAACCAAAAAGAAAATATGTACCAGTCCACCAAGGGACGGAGGCTATTTTCTCAGTAGTGACTCTGGCTGGAAAACTAACTTTTTGAAAGAAGGCGAACGCCATCT</Hsp_hseq>
+      <Hsp_midline>|||||| |||| |||||  ||||||| ||| | ||||| || || | |||||||||  ||| |||| |||||||  |||||||||  || |||||||| |||||| | |||||||||||| | | ||| || ||||| || |||  |||||| |  |||||||| ||||||||||| |  ||  |||||| ||| ||||   ||||||||||||||||||||| || ||| || || |||||||| ||||||||||||||||||||||||||||||| | || ||||| ||| | |||| ||||||| ||||||||| ||||||||||| ||| |||||| |||  |||||||| ||| ||||||||||  ||||||| |||||||||||| | || ||||||||||| |||||||||||||||||  | | |||||||||||||||| || ||||||| ||||||| ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
 </Iteration_hits>
   <Iteration_stat>
     <Statistics>
       <Statistics_db-num>1287944</Statistics_db-num>
       <Statistics_db-len>2428170463</Statistics_db-len>
-      <Statistics_hsp-len>31</Statistics_hsp-len>
-      <Statistics_eff-space>7331909690930</Statistics_eff-space>
+      <Statistics_hsp-len>29</Statistics_hsp-len>
+      <Statistics_eff-space>1044788378019</Statistics_eff-space>
       <Statistics_kappa>0.46</Statistics_kappa>
       <Statistics_lambda>1.28</Statistics_lambda>
       <Statistics_entropy>0.85</Statistics_entropy>
     </Statistics>
   </Iteration_stat>
-  <Iteration_message>No hits found</Iteration_message>
 </Iteration>
 </BlastOutput_iterations>
 </BlastOutput>

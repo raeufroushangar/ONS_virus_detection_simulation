@@ -6,8 +6,8 @@
   <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
   <BlastOutput_db>/home/raeuf/raeuf_notebook/bioinformatics_tools/apps/blast/db/RVDB_db/C-RVDBv24.1</BlastOutput_db>
   <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
-  <BlastOutput_query-def>read29301</BlastOutput_query-def>
-  <BlastOutput_query-len>456</BlastOutput_query-len>
+  <BlastOutput_query-def>read10077</BlastOutput_query-def>
+  <BlastOutput_query-len>398</BlastOutput_query-len>
   <BlastOutput_param>
     <Parameters>
       <Parameters_expect>1e-10</Parameters_expect>
@@ -22,8 +22,8 @@
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
   <Iteration_query-ID>Query_1</Iteration_query-ID>
-  <Iteration_query-def>read29301</Iteration_query-def>
-  <Iteration_query-len>456</Iteration_query-len>
+  <Iteration_query-def>read10077</Iteration_query-def>
+  <Iteration_query-len>398</Iteration_query-len>
 <Iteration_hits>
 </Iteration_hits>
   <Iteration_stat>
@@ -31,7 +31,7 @@
       <Statistics_db-num>1287944</Statistics_db-num>
       <Statistics_db-len>2428170463</Statistics_db-len>
       <Statistics_hsp-len>29</Statistics_hsp-len>
-      <Statistics_eff-space>1020880177149</Statistics_eff-space>
+      <Statistics_eff-space>882212612103</Statistics_eff-space>
       <Statistics_kappa>0.46</Statistics_kappa>
       <Statistics_lambda>1.28</Statistics_lambda>
       <Statistics_entropy>0.85</Statistics_entropy>

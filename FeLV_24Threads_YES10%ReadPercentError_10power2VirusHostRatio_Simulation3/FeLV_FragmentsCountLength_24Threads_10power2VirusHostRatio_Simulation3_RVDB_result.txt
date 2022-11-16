@@ -1,0 +1,38 @@
+
+Date: Nov-16-2022
+Virus: Feline Leukemia Virus.fasta
+Genome size (bp): 8448
+Count: 50
+Host name: GCF_000223135.1_CriGri_1.0_genomic.fna
+Genome size (bp): 2399786748
+Count: 1
+
+Virus to host ratio: 10power2
+Number of total fragments: 9178959
+10% Error per read: YES
+
+
+****Alignment:1****
+sbjct_title: acc|GENBANK|AB050721.1|Mus musculus castaneus endogenous murine leukemia virus Frg3 pol, env genes, partial and complete cds.|Mus musculus castaneus|ROD|20-JUL-2016 
+sbjct_id: gnl|BL_ORD_ID|22378
+sbjct_accession: 22378
+sbjct_length: 3333
+query_id: read1
+query_length: 204
+score: 47.0
+evalue: 1.44509e-15
+identities: 76
+positives: 76
+gaps: 2
+align_length: 90
+strand: ('Plus', 'Minus')
+query_start: 59
+query_end: 146
+query: CCTTTAATCCCAGCACTTGGGAGGCAGAGACAGT-GGC-TTCTGAGTTCCAGGCTAGTCTGTTCTATAGAGTGTGTTCCAGTAAAGCCAG
+match: ||||||||||||||||||||||||||||| |||  ||  |||||||||| |||| || ||| |||| | |||| ||||||| | ||||||
+sbjct: CCTTTAATCCCAGCACTTGGGAGGCAGAGGCAGGCGGATTTCTGAGTTCGAGGCCAGCCTGGTCTACAAAGTGAGTTCCAGGACAGCCAG
+sbjct_start: 3027
+sbjct_end: 2938
+*****************
+
+Processing took 4.89 min using 24 parallel threads.

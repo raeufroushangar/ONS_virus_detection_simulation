@@ -1,5 +1,5 @@
 
-Date: Nov-15-2022
+Date: Nov-16-2022
 Virus: Minute virus of mice.fasta
 Genome size (bp): 5149
 Count: 50
@@ -8,7 +8,7 @@ Genome size (bp): 2399786748
 Count: 1
 
 Virus to host ratio: 10power2
-Number of total fragments: 1276855
+Number of total fragments: 4879378
 10% Error per read: YES
 
 
@@ -17,166 +17,46 @@ sbjct_title: acc|REFSEQ|NC_001510.1|Minute virus of mice, complete genome
 sbjct_id: gnl|BL_ORD_ID|1265430
 sbjct_accession: 1265430
 sbjct_length: 5149
-query_id: read29290
-query_length: 590
-score: 419.0
-evalue: 0.0
-identities: 544
-positives: 544
+query_id: read10068
+query_length: 466
+score: 331.0
+evalue: 4.7852e-173
+identities: 432
+positives: 432
 gaps: 13
-align_length: 603
+align_length: 479
 strand: ('Plus', 'Plus')
 query_start: 1
-query_end: 590
-query: ATACTTACTAACTAACCAT-CCTTTTCATT-TAT-CTT-ATATATTATTAAGACTAATAAAGGTAC-ACATAGAAATACAATATTACGTATAGATTTATGAAACAGAATAACATTGTACTCAGTGACTG-TAAAAATGATAGGACCTTTGGAATAACAAGATAGTTAGTTGGTTAATGTTAGATAGAATAAGAAGATCATGTATAATGAATAAAAGGGTGGAAGGGTGGTTGCTAGGTG-ATGTTAGATAGAATAAGAATTGCATGTATAATGAATAAAAGGCTGGAAGGGTGGTTGGTAGGTATTCAC-TAGACTTGATGTTAAGGACCAAAACG-TAATAAAACTTTTTTACAACTCAACGAAGAC-ACTGTCTAGTCAGTGAACCAACTGAAACAATATTATCACTATGTTTTCAGGGTGGGAGGGAGGGAGACACACGTGTTCGCTATGCACCAGCTGGTACTGGTTGGTTGCTCTGCTCATCCAACCA-AGCGGCAAAGCCGGTCTGGCTGGTTGAGCGTAACCAACCAGTACCAGATCGCTCATAGCGAACACATGCAT-TCCTACCCTCCGGCCCT-AAAACATAGTAATACTAAT
-match: ||||||||||||||||||| | ||||| || | | ||| ||||||||||||||||||||||| ||| ||||||||||| ||||||||||||||||||| |||| ||||||| || ||||| ||| |||| ||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||  |||||||||||||||||||   |||||||||||||||||||| |||||||||||||||||||||||| | ||||||||||||||||||||||||   |||||||||||||||| |||||||| ||||| |||||||| ||||||||||||||||| || || ||| |||||||||| |||||||||||| |||||| ||| ||||||||||||  | | |||||||||||||||||||||||||| ||||||| | ||||||||||||||||| |||||||||| |||||||||||||||| |||||||||||||||||||| || ||| |||||||  |||| |||||||||||||||||||
-sbjct: ATACTTACTAACTAACCATGCTTTTTCTTTCTGTACTTCATATATTATTAAGACTAATAAAGATACAACATAGAAATATAATATTACGTATAGATTTAAGAAATAGAATAATATGGTACTTAGTAACTGTTAAAAATAATAGAACCTTTGGAATAACAAGATAGTTAGTTGGTTAATGTTAGATAGAATAAGAAGATCATGTATAATGAATAAAAGGGTGGAAGGGTGGTTGGTAGGTTAATGTTAGATAGAATAAGAAGATCATGTATAATGAATAAAAGGGTGGAAGGGTGGTTGGTAGGTATTCCCTTAGACTTGATGTTAAGGACCAAAAAAATAATAAAACTTTTTTAAAACTCAACCAAGACTACTGTCTATTCAGTGAACCAACTGAACCATTAGTATTACTATGTTTTTAGGGTGGGAGGGTGGGAGATACATGTGTTCGCTATGAGCGAACTGGTACTGGTTGGTTGCTCTGCTCAACCAACCAGACCGGCAAAGCCGGTCTGGTTGGTTGAGCGCAACCAACCAGTACCAGTTCGCTCATAGCGAACACATGTATCTCCCACCCTCCCACCCTAAAAACATAGTAATACTAAT
-sbjct_start: 4547
-sbjct_end: 5149
+query_end: 466
+query: TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAATGCGGAAAA-AACAAGGCTGGCACAGAC-TGTACTAATTGGGGGAAAGG-CTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATGTT-A-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGATACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAA-CAAAAAAGACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT
+match: |||||| |||| |||||| ||||||||||||||||||| |||||||||||||||||| ||  ||||||||||||   |||||||| |||||||||||| |||||| | |||||||||||| | | |||||||||||| ||||||| |||||||| ||||||||||||||||||||||| ||| ||||||||| | |||| | |||||||||||||||||||||| | |||||| | |||||||| |||||||||||||||||||||||||||||||||||||||||| ||| |||||| ||||||| ||||||||| ||||||||||| |||||||||| || |||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||| || ||||||||||||||| ||| ||||||||
+sbjct: TTCATTTTTGATTCTTTGGTTAAAAAATGTTTATTTGAAGTGCTTAACACAAAGAATATATTTCCTGGTGATGTTAATTGGTTTGTGCAACATGAATGGGGAAAAGACCAAGGCTGGCACTGCCATGTACTAATTGGAGGAAAGGACTTTAGTCAAGCTCAAGGGAAATGGTGGAGAAGGCAACTAAATGTTTACTGGAGCAGATGGTTGGTAACAGCCTGTAATGTGCAACTAACACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTTACTCTACTTACTTATAAGCATAAGCAAACCAAAAAAGACTATACCAAGTGTGTTCTTTTTGGAAACATGATTGCTTACTATTTTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTAGCAGTGACTCTGGCTGGAAAACTAACTTTTTAAAAGAAGGCGAGCGCCATCT
+sbjct_start: 522
+sbjct_end: 1000
 *****************
 
 
 ****Alignment:2****
-sbjct_title: acc|REFSEQ|NC_001510.1|Minute virus of mice, complete genome 
-sbjct_id: gnl|BL_ORD_ID|1265430
-sbjct_accession: 1265430
-sbjct_length: 5149
-query_id: read29290
-query_length: 590
-score: 66.0
-evalue: 1.26203e-25
-identities: 72
-positives: 72
-gaps: 0
-align_length: 75
-strand: ('Plus', 'Plus')
-query_start: 158
-query_end: 232
-query: GTTAGTTGGTTAATGTTAGATAGAATAAGAAGATCATGTATAATGAATAAAAGGGTGGAAGGGTGGTTGCTAGGT
-match: ||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||
-sbjct: GTTGGTAGGTTAATGTTAGATAGAATAAGAAGATCATGTATAATGAATAAAAGGGTGGAAGGGTGGTTGGTAGGT
-sbjct_start: 4775
-sbjct_end: 4849
-*****************
-
-
-****Alignment:3****
-sbjct_title: acc|GENBANK|DQ196317.1|Minute virus of mice strain m, complete genome.|Minute virus of mice|VRL|27-MAY-2006 
-sbjct_id: gnl|BL_ORD_ID|336955
-sbjct_accession: 336955
-sbjct_length: 4760
-query_id: read29290
-query_length: 590
-score: 160.0
-evalue: 7.0268e-78
-identities: 213
-positives: 213
-gaps: 6
-align_length: 238
-strand: ('Plus', 'Plus')
-query_start: 1
-query_end: 232
-query: ATACTTACTAACTAACCAT-CCTTTTCATT-TAT-CTT-ATATATTATTAAGACTAATAAAGGTAC-ACATAGAAATACAATATTACGTATAGATTTATGAAACAGAATAACATTGTACTCAGTGACTG-TAAAAATGATAGGACCTTTGGAATAACAAGATAGTTAGTTGGTTAATGTTAGATAGAATAAGAAGATCATGTATAATGAATAAAAGGGTGGAAGGGTGGTTGCTAGGT
-match: ||||||||||||||||||| | ||||| || | | ||| ||||||||||||||||||||||| ||| ||||||||||| |||||||| |||||||||| |||| ||||||| || ||||| ||| |||| || |||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||  |||||||||||||||||||||| |||||
-sbjct: ATACTTACTAACTAACCATGCTTTTTCTTTCTGTACTTCATATATTATTAAGACTAATAAAGATACAACATAGAAATATAATATTACATATAGATTTAAGAAATAGAATAATATGGTACTTAGTAACTGTTAGAAATAATAGAACCTTTGGAATAACAAGATAGTTAGTTGGTTAATGTTAGATAGAATAAGAAGATTATGTATAATGGGTAAAAGGGTGGAAGGGTGGTTGGTAGGT
-sbjct_start: 4433
-sbjct_end: 4670
-*****************
-
-
-****Alignment:4****
 sbjct_title: acc|GENBANK|X02481.1|Mouse parvovirus minute virus immunosuppressive variant genome (= MVMi).|Minute virus of mice|VRL|26-JUL-2016 
 sbjct_id: gnl|BL_ORD_ID|629670
 sbjct_accession: 629670
 sbjct_length: 5087
-query_id: read29290
-query_length: 590
-score: 148.0
-evalue: 3.29246e-71
-identities: 205
-positives: 205
-gaps: 6
-align_length: 232
+query_id: read10068
+query_length: 466
+score: 268.0
+evalue: 5.02814e-138
+identities: 411
+positives: 411
+gaps: 13
+align_length: 479
 strand: ('Plus', 'Plus')
 query_start: 1
-query_end: 226
-query: ATACTTACTAACTAACCATCCTTTTC-ATT-TAT-CTT-ATATATTATTAAGACTAATAAAGGTAC-ACATAGAAATACAATATTACGTATAGATTTATGAAACAGAATAACATTGTACTCAGTGACTGTAA-AAATGATAGGACCTTTGGAATAACAAGATAGTTAGTTGGTTAATGTTAGATAGAATAAGAAGATCATGTATAATGAATAAAAGGGTGGAAGGGTGGTTG
-match: |||||||||||||||||||  |||||  || | | ||| ||||||||||||||||||||||| ||| ||||| ||||| |||||||| |||||||||| |||| ||||||| || ||||| ||| ||||| | |||| |||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||  ||||||||||||||||||||||
-sbjct: ATACTTACTAACTAACCATGTTTTTCCTTTCTGTACTTCATATATTATTAAGACTAATAAAGATACAACATAAAAATATAATATTACATATAGATTTAAGAAATAGAATAATATGGTACTTAGTAACTGTTAGAAATAATAGAACCTTTGGAATAACAAGATAATTAGTTGGTTAATGTTAGATAGAATAAGAAGATTATGTATAATGGGTAAAAGGGTGGAAGGGTGGTTG
-sbjct_start: 4548
-sbjct_end: 4779
+query_end: 466
+query: TTCATTGTTGA-TCTTTGTTTAAAAAATGTTTATTTGACGTGCTTAACACAAAGAATGTAGATCCTGGTGATGTGTCTTGGTTTGCGCAACATGAAT-GCGGAAAAAACAAGGCTGGCACAGAC-TGTACTAATTGGGGGAAAGG-CTTTAGTCGAGCTCAAGGGAAATGGTGGAGAAAGCACCTAAATGTT-A-TGGAACCGATGGTTGGTAACAGCCTGTAACGGGCAACTGATACCAGCTGGAAGAATTAAACTAAGAGAAATAGCAGAAGACAATGAGTGGGTAACTTTACTTAATTATAAGAATAAGCAAACAAAAAA-GACTTTACCAAGTGTCTTTTTTTTGGAAACATGATTGCTTACTA--TTTTAACTAAAAAGAAAATAAGCACTAGTCCACCAAGAGACGGAGGCTATTTTCTTCGCA-TGACTCTGGCTGGAAA-CT-ACTTTTTAAAAGAAGTCGA-CGCCATCT
+match: ||||||  ||| |||||  ||||||||||||| ||||| ||||||| |||||| ||| ||| ||||| ||||||  ||||||||| ||| ||||||| | ||||| | |||||||||||| | | |||||||||||| || |||| |||||||| ||||||||| ||||||||||||| ||| ||||||||| | |||| | |||||||||||||||||||||| | ||| || | |||||||| |||||||||||||||||||||||||||||||| ||||||||| |||||||| | ||||||  |||||||||| ||||| |||| ||| || ||| || |||||||||| ||||||||||||||  ||||||| ||||||||||||||||| ||||| ||||| |||||||||||||||||  ||| |||||||||||||||| || ||||||||||||| | ||| ||||||||
+sbjct: TTCATTTATGACTCTTTAGTTAAAAAATGTTTGTTTGAAGTGCTTAGCACAAAAAATATAGCTCCTGCTGATGTTACTTGGTTTGTGCAGCATGAATGGGGGAAAGACCAAGGCTGGCACTGCCATGTACTAATTGGAGGCAAGGACTTTAGTCAAGCTCAAGGAAAATGGTGGAGAAGGCAGCTAAATGTTTACTGGAGCAGATGGTTGGTAACAGCCTGTAATGTGCAGCTAACACCAGCTGAAAGAATTAAACTAAGAGAAATAGCAGAAGACAGTGAGTGGGTTACTTTACTCACTTATAAACATAAGCAAACCAAAAAGGACTATACTAAATGTGTTCTTTTTGGAAATATGATTGCTTACTACTTTTTAACCAAAAAGAAAATAAGCACCAGTCCGCCAAGGGACGGAGGCTATTTTCTAAGCAGTGACTCTGGCTGGAAAACTAACTTTTTAAAAGAGGGCGAACGCCATCT
+sbjct_start: 523
+sbjct_end: 1001
 *****************
 
-
-****Alignment:5****
-sbjct_title: acc|GENBANK|AF332883.1|Rat minute virus 1b nonstructural protein 1 (NS1) and viral capsid protein 2 (VP2) genes, complete cds.|Rat minute virus 1b|VRL|08-AUG-2002 
-sbjct_id: gnl|BL_ORD_ID|304452
-sbjct_accession: 304452
-sbjct_length: 4816
-query_id: read29290
-query_length: 590
-score: 55.0
-evalue: 1.64413e-19
-identities: 179
-positives: 179
-gaps: 16
-align_length: 237
-strand: ('Plus', 'Plus')
-query_start: 1
-query_end: 226
-query: ATACTTACTAACTAACCATCCTTTTCATTTAT-CTT-ATATATTATTAAGACTAA-TAAAGGTAC-ACATAGAAATACAATATTACGTATAGATTTAT-GAAACAGAATAACATTGTACTCAGTGACTGTAA-AAATGATAGGACCTTTGGAATAACAAGATAGTTAGTTGGTTAATGTTAGATAGA--ATAAGAAGATCATGTATAATG-AA-T-AAAAGGGTGGAAGGGTGGTTG
-match: ||||| || ||| ||| || ||| || | | | ||| | ||| || | ||||||| || |  ||| ||||||||||| |   |||   ||||| |||| |||| |  |||| || ||| |   | ||||||| |||| |||| || |||||||||  || |||||||||||||||||||||||||||  ||||||||||  |||||   | || | ||||||||||  |||||||||
-sbjct: ATACTAACCAACCAACTATGCTTCTC-TGTCTGCTTCACATAATACTTAGACTAACTAGA-CTACAACATAGAAATATACACTTAATAATAGA-TTATAGAAATAACATAATATGGTATTGGTTAACTGTAAGAAATAATAGAACTTTTGGAATA--AATATAGTTAGTTGGTTAATGTTAGATAGAATATAAGAAGATTTTGTATTTGGGAAATAAAAAGGGTGGTTGGGTGGTTG
-sbjct_start: 4502
-sbjct_end: 4733
-*****************
-
-
-****Alignment:6****
-sbjct_title: acc|GENBANK|JX627317.1|Rat minute virus isolate NTU1, complete genome.|Rat minute virus|VRL|08-APR-2014 
-sbjct_id: gnl|BL_ORD_ID|717868
-sbjct_accession: 717868
-sbjct_length: 4783
-query_id: read29290
-query_length: 590
-score: 52.0
-evalue: 7.64939e-18
-identities: 181
-positives: 181
-gaps: 22
-align_length: 240
-strand: ('Plus', 'Plus')
-query_start: 3
-query_end: 226
-query: ACTTACTAACTAACCATCC-T-TTTCATT-TAT-CTT-ATATATTATTAAGACTAA-TAAAGGTAC-ACATAGAAATACA-ATATTACGTATAGATTTATGAAACAGAATAACAT-T-GTACTCAGTGACTGTAA-AAATGATAGGACCTTTGGAATAACAAGATAGTTAGTTGGTTAATGTTAGATAGA--ATAAGAAGATCATGTATAATGAA--TAAA-AGGGTGGAAGGGTGGTTG
-match: || ||||||| ||||| || | ||||  | | | ||| | ||| || | ||||||| ||||  ||| ||||||||||| | || |||   ||||| ||||  || | ||||  || | ||| |   | ||||||| |||| |||| || |||||  | | || |||||||||||||||||||||||||||  ||||||||||  ||||||  |||  |||| |||||||  |||||||||
-sbjct: ACATACTAACCAACCAACCATGTTTCTCTGTCTGCTTCACATAATACTTAGACTAACTAAA-CTACAACATAGAAATATACAT-TTAATAATAGA-TTATAGAA-ATAATACTATATGGTATTGGTTAACTGTAAGAAATCATAGAACTTTTGG-GTTA-AATATAGTTAGTTGGTTAATGTTAGATAGAATATAAGAAGATTTTGTATATGGAAAATAAAGAGGGTGGTTGGGTGGTTG
-sbjct_start: 4498
-sbjct_end: 4731
-*****************
-
-
-****Alignment:7****
-sbjct_title: acc|GENBANK|AF332884.1|Rat minute virus 1c nonstructural protein 1 (NS1) and viral capsid protein 2 (VP2) genes, complete cds.|Rat minute virus 1c|VRL|08-AUG-2002 
-sbjct_id: gnl|BL_ORD_ID|304453
-sbjct_accession: 304453
-sbjct_length: 4795
-query_id: read29290
-query_length: 590
-score: 49.0
-evalue: 3.55892e-16
-identities: 113
-positives: 113
-gaps: 8
-align_length: 143
-strand: ('Plus', 'Plus')
-query_start: 60
-query_end: 197
-query: TAC-ACATAGAAATACAATATTACGTATAGATTTAT-GAAACAGAATAACATTGTACTCAGTGACTGTAA-AAATGATAGGACCTTTGGAATAACAAGATAGTTAGTTGGTTAATGTTAGATAGA--ATAAGAAGATCATGTA
-match: ||| ||||||||||| |   |||   ||||| |||| |||| |  |||| || ||| |   | ||||||| |||| |||| || |||||||||  || |||||||||||||||||||||||||||  |||||||||| |||||
-sbjct: TACAACATAGAAATATACACTTAATAATAGA-TTATAGAAATAACATAATATGGTATTGGTTAACTGTAAGAAATAATAGAACTTTTGGAATA--AATATAGTTAGTTGGTTAATGTTAGATAGAATATAAGAAGATGATGTA
-sbjct_start: 4556
-sbjct_end: 4695
-*****************
-
-Processing took 48.52 min using 24 parallel threads.
+Processing took 17.53 min using 24 parallel threads.

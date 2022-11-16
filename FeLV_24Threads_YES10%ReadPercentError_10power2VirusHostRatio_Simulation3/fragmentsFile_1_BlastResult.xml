@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>/home/raeuf/raeuf_notebook/bioinformatics_tools/apps/blast/db/RVDB_db/C-RVDBv24.1</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>read1</BlastOutput_query-def>
+  <BlastOutput_query-len>204</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>1e-10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>read1</Iteration_query-def>
+  <Iteration_query-len>204</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|665561</Hit_id>
+  <Hit_def>acc|GENBANK|AF397035.1|Mus musculus strain B10.A(1R) heat shock protein Hsc70t (Hsc70t) gene, partial cds; and small ribonuclear protein G7b (G7b) gene, viral envelope protein G7e (G7e) gene, valyl-tRNA-synthetase G7a/Bat6 (G7a) gene, G7c (G7c) gene, G7d (G7d) gene, and DNA mismatch repair protein Msh5 (Msh5) gene, complete cds.|Mus musculus|ROD|26-JUL-2016 </Hit_def>
+  <Hit_accession>665561</Hit_accession>
+  <Hit_len>78679</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.4528</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>3.10602e-17</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>31515</Hsp_hit-from>
+      <Hsp_hit-to>31423</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>CTTTAATCCCAGCACTTGGGAGGCAGAGACAGTG-GC-TTCTGAGTTCCAGGCTAGTCTGTTCTATAGAGTGTGTTCCAGTAAAGCCAGGACT</Hsp_qseq>
+      <Hsp_hseq>CTTTAATCCCAGCACTTGGGAGGCAGAGGCAGGCAGATTTCTGAGTTCGAGGCCAGCCTGGTCTATAGAGTGAGTTCCAGGATAGCCAGGGCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| |||   |  |||||||||| |||| || ||| ||||||||||| ||||||| | ||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>89.7595</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>4.01789e-16</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>14375</Hsp_hit-from>
+      <Hsp_hit-to>14465</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGACAGT-GGC-TTCTGAGTTCCAGGCTAGTCTGTTCTATAGAGTGTGTTCCAGTAAAGCCAGG</Hsp_qseq>
+      <Hsp_hseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGGCAGGCGGATTTCTGAGTTCGAGGCCAGCCTGGTCTACAGAGTGAGTTCCAGGACAGACAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| |||  ||  |||||||||| |||| || ||| |||| |||||| ||||||| | || ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>89.7595</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>4.01789e-16</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>75778</Hsp_hit-from>
+      <Hsp_hit-to>75685</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGACAGT-GGC-TTCTGAGTTCCAGGCTAGTCTGTTCTATAGAGTGTGTTCCAGTAAAGCCAGGACT</Hsp_qseq>
+      <Hsp_hseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGGCAGGCGGGTTTCTGAGTTCAAGGTCAGCCTGGTCTACAGAGTGAGTTCCAGGACAGCCTGGACT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| |||  ||  |||||||||| |||  || ||| |||| |||||| ||||||| | |||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>84.2195</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.86934e-14</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>62868</Hsp_hit-from>
+      <Hsp_hit-to>62775</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGACAGT-GGC-TTCTGAGTTCCAGGCTAGTCTGTTCTATAGAGTGTGTTCCAGTAAAGCCAGGACT</Hsp_qseq>
+      <Hsp_hseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGGCAGGCGGATTTCTGAGTTTGAGGCCAGCCTGGTCTACAGAGTGAGTTCTAGGACAGCCAGGGCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| |||  ||  |||||||||  |||| || ||| |||| |||||| |||| || | ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|665554</Hit_id>
+  <Hit_def>acc|GENBANK|AF295923.1|Mus musculus endogenous retrovirus Iapls1-3, partial sequence; calpain gene, partial cds.|Mus musculus|ROD|14-JUL-2016 </Hit_def>
+  <Hit_accession>665554</Hit_accession>
+  <Hit_len>4280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.4528</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>3.10602e-17</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGACAG-TGGCTT-CTGAGTTCCA-GGCT-AGTCTGTTCTATAGAGTGTGTTCCAGTAAAGCCAGGACT</Hsp_qseq>
+      <Hsp_hseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGGCAGGTGGATTTCTGAGTTNCAAGGCACAGCCTGTTCTACAGATTGAGTTCCAGGACAGCCAGGGCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||| ||| || ||||||| || |||  || |||||||| ||| || ||||||| | ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|547337</Hit_id>
+  <Hit_def>acc|GENBANK|AF087141.1|Mus musculus uncharacterized long terminal repeat, complete sequence; and valyl-tRNA synthetase (G7a) gene, complete cds.|Mus musculus|ROD|21-APR-1999 </Hit_def>
+  <Hit_accession>547337</Hit_accession>
+  <Hit_len>16041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.4528</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>3.10602e-17</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>9319</Hsp_hit-from>
+      <Hsp_hit-to>9227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>CTTTAATCCCAGCACTTGGGAGGCAGAGACAGTG-GC-TTCTGAGTTCCAGGCTAGTCTGTTCTATAGAGTGTGTTCCAGTAAAGCCAGGACT</Hsp_qseq>
+      <Hsp_hseq>CTTTAATCCCAGCACTTGGGAGGCAGAGGCAGGCAGATTTCTGAGTTCGAGGCCAGCCTGGTCTATAGAGTGAGTTCCAGGATAGCCAGGGCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| |||   |  |||||||||| |||| || ||| ||||||||||| ||||||| | ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1077039</Hit_id>
+  <Hit_def>acc|GENBANK|U69488.1|Mus musculus viral envelope like protein (G7e) gene, complete cds.|Mus musculus|ROD|26-MAR-1998 </Hit_def>
+  <Hit_accession>1077039</Hit_accession>
+  <Hit_len>14775</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7595</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>4.01789e-16</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>6480</Hsp_hit-from>
+      <Hsp_hit-to>6570</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGACAGT-GGC-TTCTGAGTTCCAGGCTAGTCTGTTCTATAGAGTGTGTTCCAGTAAAGCCAGG</Hsp_qseq>
+      <Hsp_hseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGGCAGGCGGATTTCTGAGTTCGAGGCCAGCCTGGTCTACAGAGTGAGTTCCAGGACAGACAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| |||  ||  |||||||||| |||| || ||| |||| |||||| ||||||| | || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|22378</Hit_id>
+  <Hit_def>acc|GENBANK|AB050721.1|Mus musculus castaneus endogenous murine leukemia virus Frg3 pol, env genes, partial and complete cds.|Mus musculus castaneus|ROD|20-JUL-2016 </Hit_def>
+  <Hit_accession>22378</Hit_accession>
+  <Hit_len>3333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.9128</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>1.44509e-15</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>3027</Hsp_hit-from>
+      <Hsp_hit-to>2938</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGACAGT-GGC-TTCTGAGTTCCAGGCTAGTCTGTTCTATAGAGTGTGTTCCAGTAAAGCCAG</Hsp_qseq>
+      <Hsp_hseq>CCTTTAATCCCAGCACTTGGGAGGCAGAGGCAGGCGGATTTCTGAGTTCGAGGCCAGCCTGGTCTACAAAGTGAGTTCCAGGACAGCCAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| |||  ||  |||||||||| |||| || ||| |||| | |||| ||||||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1287944</Statistics_db-num>
+      <Statistics_db-len>2428170463</Statistics_db-len>
+      <Statistics_hsp-len>28</Statistics_hsp-len>
+      <Statistics_eff-space>421011013456</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
