@@ -16,15 +16,15 @@ COUNT = 0
 
 class simulation:
     """
-       virusSymbol: symbol of virus: FeLV, MVM, etc
-       virusRefGenName: name of virus fasta file 
+       virusSymbol: virus symbol (e.g. FeLV, MVM, PCV)
+       virusRefGenName: virus fasta file name  
        virusRefGenCount: number of virus genome to use
-       hostRefGenName: name of host fasta file
+       hostRefGenName: host fasta file name
        hostRefGenCount: number of host genome to use
-       refGenomeDirectory: path to the reference genome file 
-       virusHostRatio: string to add to simulation output file name
-       minReadLen: size of smallest read fragmente
-       maxReadLen: size of largest read fragmente
+       refGenomeDirectory: reference genome file path
+       virusHostRatio: string to add to output file name
+       minReadLen: smallest read fragmente size
+       maxReadLen: largest read fragmente size
        errorStatus: Yes/No
        percentError: sequencing read error percentage, 10% and higher
        threadsNumber: number of logical threads to use 
