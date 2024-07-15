@@ -1,5 +1,9 @@
 
-# Virus Detection in CHO Cells Using Oxford Nanopore Sequencing and the Hypergeometric Probability Distribution
+# Simulation of Virus Detection in CHO Cells for Oxford Nanopore Sequencing Using Hypergeometric Probability
+
+## Project Description
+
+This repository implements the research paper by Roushangar et al., which details the simulation of virus detection using Oxford Nanopore sequencing and sequence alignments using BLAST searches.
 
 ## Project Description
 
