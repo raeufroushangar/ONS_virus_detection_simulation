@@ -34,7 +34,6 @@ This repository implements the research paper by Roushangar et al. that covers t
    ````bash
    git clone https://github.com/raeufroushangar/ONS_virus_detection_simulation.git
    cd ONS_virus_detection_simulation
-   ```
 
 2. **Create a virtual environment inside the `ONS_virus_detection_simulation` directory:**
    ```bash
