@@ -1,5 +1,5 @@
 
-# Virus Detection in CHO Cells Using Oxford Nanopore Sequencing Reads, BLAST, and the Hypergeometric Probability Distribution
+# Virus Detection in CHO Cells Using Oxford Nanopore Sequencing and the Hypergeometric Probability Distribution
 
 ## Project Description
 
