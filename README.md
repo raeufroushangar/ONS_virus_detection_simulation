@@ -58,19 +58,19 @@ This repository implements the research paper by Roushangar et al. that covers t
    ```bash
    python3 ons_simulation_main.py MVM 'Minute virus of mice.fasta' 50 'GCF_000223135.1_CriGri_1.0_genomic.fna' 1 '/path/to/refSeq' 10power2 50 500 yes 10 24 3
 
-   ### Explanation of Inputs:
-   - `MVM`: Virus symbol (e.g., MVM for Minute Virus of Mice)
-   - `'Minute virus of mice.fasta'`: Virus reference genome file name
-   - `50`: Number of virus genomes to use
-   - `'GCF_000223135.1_CriGri_1.0_genomic.fna'`: Host reference genome file name
-   - `1`: Number of host genomes to use
-   - `'/path/to/refSeq'`: Reference genome directory path
-   - `10power2`: Virus to host ratio string to add to the output file name
-   - `50`: Minimum read length
-   - `500`: Maximum read length
-   - `yes`: Error status (Yes/No)
-   - `10`: Sequencing read error percentage
-   - `24`: Number of logical threads to use
-   - `3`: Simulation number
+### Explanation of Inputs:
+- `MVM`: Virus symbol (e.g., MVM for Minute Virus of Mice)
+- `'Minute virus of mice.fasta'`: Virus reference genome file name
+- `50`: Number of virus genomes to use
+- `'GCF_000223135.1_CriGri_1.0_genomic.fna'`: Host reference genome file name
+- `1`: Number of host genomes to use
+- `'/path/to/refSeq'`: Reference genome directory path
+- `10power2`: Virus to host ratio string to add to the output file name
+- `50`: Minimum read length
+- `500`: Maximum read length
+- `yes`: Error status (Yes/No)
+- `10`: Sequencing read error percentage
+- `24`: Number of logical threads to use
+- `3`: Simulation number
 
    Replace the paths and parameters with those suitable for your environment and data.
