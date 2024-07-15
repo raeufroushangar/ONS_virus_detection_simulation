@@ -1,11 +1,10 @@
 
 # Virus Detection in CHO Cells Using Oxford Nanopore Sequencing Reads, BLAST, and the Hypergeometric Probability Distribution
 
-This repository implements the research paper by Roushangar et al., where the data, code, and supplementary materials can all be found.
-
 ## Project Description
 
-The repository serves as a toolkit for researchers to simulate virus detection and perform sequence alignments using BLAST searches.
+This repository implements the research paper by Roushangar et al. that covers the work for simulating virus detection using Oxford Nanopore sequencing and perform sequence alignments using BLAST searches.
+
 
 ## Directory Structure
 
