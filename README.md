@@ -3,11 +3,7 @@
 
 ## Project Description
 
-This repository implements the research paper by Roushangar et al., which details the simulation of virus detection using Oxford Nanopore sequencing and sequence alignments using BLAST searches.
-
-## Project Description
-
-This repository implements the research paper by Roushangar et al. that covers the work for simulating virus detection using Oxford Nanopore sequencing and perform sequence alignments using BLAST searches.
+This repository implements the research paper by Roushangar et al. that covers the work for simulating virus detection using hypergeometric probability for Oxford Nanopore sequencing.
 
 
 ## Directory Structure
