@@ -1,4 +1,3 @@
-
 # Simulation of Virus Detection in CHO Cells for Oxford Nanopore Sequencing Using Hypergeometric Probability
 
 ## Project Description
